@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "client": "cd client && deno task dev",
+    "server": "deno run -A --watch server/server.ts",
+    "dev": "deno task client & deno task server"
+  }
+}
